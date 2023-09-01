@@ -40,6 +40,7 @@ export async function register(authDetail) {
     return data;
 }
 
+
 export async function logout() {
     sessionStorage.removeItem("token");
     sessionStorage.removeItem("cbid");
