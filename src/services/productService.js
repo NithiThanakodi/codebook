@@ -8,6 +8,7 @@ export async function getProductList(query) {
     return data;
 }
 
+
 export async function getProduct(id) {
     const response = await fetch(`${process.env.REACT_APP_HOST}/444/products/${id}`);
     if (!response.ok) {
